@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+    background-image: url('../../asset/background.png');
+    background-size: cover; /* ให้รูปภาพครอบคลุมทั้งพื้นที่ขององค์ประกอบ */
+    background-repeat: no-repeat; /* ป้องกันไม่ให้รูปภาพซ้ำ */
+    background-position: center center; /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลางทั้งในแนวนอนและแนวตั้ง */
+    min-height: 100vh; /* ตั้งค่าความสูงขั้นต่ำขององค์ประกอบให้เต็มหน้าจอ */
+  }
+  
+  .homeContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ตั้งค่าความสูงขั้นต่ำขององค์ประกอบให้เต็มหน้าจอ */
+  }
+  
+  .DataContainer {
+
+    padding: 20px;
+  }
+  

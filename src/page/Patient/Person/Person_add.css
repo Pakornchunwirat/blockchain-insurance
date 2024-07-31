@@ -1,0 +1,137 @@
+.DataContainer{
+    background-color: white;
+    margin: 0 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.DataContainerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.DataContainerCenter{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.DataContainerCenterLeft ,.DataContainerCenterRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchInputData {
+    width: 34vw;
+    padding: 14px;
+    margin-right: -5px;
+    border: 1px solid #E0E2E7;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000; /* เปลี่ยนสีข้อความใน input */
+    
+}
+
+  
+  /* เพิ่ม Responsive Media Query สำหรับ input */
+  @media (max-width: 768px) {
+    .searchInputData {
+      font-size: 12px; /* ปรับขนาด font ให้เหมาะสมกับหน้าจอเล็ก */
+      padding: 10px;
+    }
+  }
+  
+
+.searchInputData::placeholder {
+    color: #8A92A6; /* เปลี่ยนสีข้อความ placeholder */
+}
+
+.searchInputData:disabled {
+    background-color: #E8E8E8; /* สีพื้นหลังของ input */
+    color: #888888; /* สีของข้อความ */
+  
+  }
+  .custom-select {
+    position: relative;
+  }
+  
+  .select-selected {
+    width: 34vw;
+    padding: 14px;
+    margin-right: -5px;
+    border: 1px solid #E0E2E7;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #8A92A6; /* เปลี่ยนสีข้อความใน input */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .select-selected.selected {
+    color: #000; /* สีตัวอักษรเมื่อเลือก Node */
+  }
+  
+  .select-selected .icon {
+    margin-left: 10px;
+    transition: transform 0.3s; /* เพิ่ม transition */
+  }
+  
+  .select-selected.select-arrow-active .icon {
+    transform: rotate(180deg); /* หมุนไอคอนเมื่อเปิด dropdown */
+  }
+  
+  .select-items {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงาใต้ dropdown */
+    overflow-y: auto; /* ให้มีการเลื่อนแนวตั้งเมื่อมีเนื้อหาเยอะ */
+    max-height: 150px; /* สูงสุดที่ dropdown สามารถขยายได้ */
+  }
+  
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div,
+  .select-selected {
+    padding: 14px;
+    border: 1px solid transparent;
+    border: 1px solid #E0E2E7;
+    cursor: pointer;
+  }
+  
+  .select-items div:hover,
+  .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .HBD {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchInputDataHBD {
+    width: 34vw;
+    padding: 14px;
+    margin-right: -5px;
+    border: 1px solid #E0E2E7;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000; /* เปลี่ยนสีข้อความใน input */
+    
+}

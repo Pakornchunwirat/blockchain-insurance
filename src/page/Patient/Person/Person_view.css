@@ -1,0 +1,23 @@
+.DataContainerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.DataContainerCenter{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.DataContainerCenterLeft ,.DataContainerCenterRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchInputData::placeholder {
+    color: #8A92A6; /* เปลี่ยนสีข้อความ placeholder */
+}
+

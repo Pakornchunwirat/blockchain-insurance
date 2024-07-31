@@ -1,0 +1,164 @@
+[
+    {
+      "title": "ผู้ป่วย",
+      "path": "/user",
+      "icon": "faUserInjured",
+      "childrens": [
+        {
+          "title": "Person_Ext",
+          "path": "/user/profile",
+          "icon": "user"
+        },
+        {
+          "title": "Appointment",
+          "path": "/user/settings",
+          "icon": "user"
+        },
+        {
+          "title": "Death",
+          "path": "/user/settings",
+          "icon": "settings"
+        },
+        {
+          "title": "Drugalllery",
+          "path": "/user/settings",
+          "icon": "settings"
+        }
+      ]
+    },
+    {
+        "title": "วินิจฉัยโรค",
+        "path": "/user",
+        "icon": "faHandDots",
+        "childrens": [
+          {
+            "title": "User Profile",
+            "path": "/user/profile",
+            "icon": "user"
+          },
+          {
+            "title": "User Settings",
+            "path": "/user/settings",
+            "icon": "settings"
+          }
+        ]
+      },
+      {
+        "title": "หัตถการ",
+        "path": "/user",
+        "icon": "faHandHoldingHeart",
+        "childrens": [
+          {
+            "title": "User Profile",
+            "path": "/user/profile",
+            "icon": "user"
+          },
+          {
+            "title": "User Settings",
+            "path": "/user/settings",
+            "icon": "settings"
+          }
+        ]
+      },{
+        "title": "รูปภาพ",
+        "path": "/user",
+        "icon": "faXRay",
+        "childrens": [
+          {
+            "title": "User Profile",
+            "path": "/user/profile",
+            "icon": "user"
+          },
+          {
+            "title": "User Settings",
+            "path": "/user/settings",
+            "icon": "settings"
+          }
+        ]
+      },
+      {
+        "title": "ครอบครัว",
+        "path": "/user",
+        "icon": "faUsers",
+        "childrens": [
+          {
+            "title": "User Profile",
+            "path": "/user/profile",
+            "icon": "user"
+          },
+          {
+            "title": "User Settings",
+            "path": "/user/settings",
+            "icon": "settings"
+          }
+        ]
+      },
+      {
+        "title": "ส่งต่อ",
+        "path": "/user",
+        "icon": "faTruckMedical",
+        "childrens": [
+          {
+            "title": "User Profile",
+            "path": "/user/profile",
+            "icon": "user"
+          },
+          {
+            "title": "User Settings",
+            "path": "/user/settings",
+            "icon": "settings"
+          }
+        ]
+      },
+      {
+        "title": "ยา",
+        "path": "/user",
+        "icon": "faCapsules",
+        "childrens": [
+          {
+            "title": "User Profile",
+            "path": "/user/profile",
+            "icon": "user"
+          },
+          {
+            "title": "User Settings",
+            "path": "/user/settings",
+            "icon": "settings"
+          }
+        ]
+      }, {
+        "title": "ประกัน",
+        "path": "/user",
+        "icon": "faFileMedical",
+        "childrens": [
+          {
+            "title": "User Profile",
+            "path": "/user/profile",
+            "icon": "user"
+          },
+          {
+            "title": "User Settings",
+            "path": "/user/settings",
+            "icon": "settings"
+          }
+        ]
+      }, {
+        "title": "เงิน",
+        "path": "/user",
+        "icon": "faMoneyCheckDollar",
+        "childrens": [
+          {
+            "title": "User Profile",
+            "path": "/user/profile",
+            "icon": "user"
+          },
+          {
+            "title": "User Settings",
+            "path": "/user/settings",
+            "icon": "settings"
+          }
+        ]
+      }
+    
+  ]
+  

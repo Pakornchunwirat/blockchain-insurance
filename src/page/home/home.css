@@ -1,0 +1,203 @@
+.container {
+    background-image: url('../../asset/background.png');
+    background-size: cover; /* ให้รูปภาพครอบคลุมทั้งพื้นที่ขององค์ประกอบ */
+    background-repeat: no-repeat; /* ป้องกันไม่ให้รูปภาพซ้ำ */
+    background-position: center center; /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลางทั้งในแนวนอนและแนวตั้ง */
+    height: 110vh; /* ตั้งค่าความสูงขององค์ประกอบให้เต็มหน้าจอ */
+
+}
+
+.containerNav{
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.iconImage{
+    width: 202px;
+    height: 39.45px;
+}
+
+.UserProfile{
+    width: 47px;
+    height: 47px;
+}
+
+.UserProfileContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserProfileContainerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.TextProfileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #98A1B6;
+    font-size: 15;
+    padding-left: 10px;
+}
+
+.UserProfileContainerRight{
+    padding-left: 10px;
+}
+
+.TopSearchContainer {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* จัดให้อยู่ตรงกลางในแนวตั้ง */
+
+    padding: 0 20px;
+}
+
+.TopSearchContainerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TopSearchContainerRight{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.searchInput {
+  width: 372px;
+  padding: 14px;
+  margin-right: -5px;
+  border: none !important; /* บังคับให้ไม่มีขอบ */
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  box-shadow: none; /* ลบขอบเงา */
+}
+
+.searchInput::placeholder {
+  color: #8A92A6; /* เปลี่ยนสีข้อความ placeholder */
+}
+
+  /* สไตล์สำหรับปุ่ม */
+  .searchButton {
+    margin-left: 30px;
+    padding: 14px 24px;
+    background-color: #58A099; /* สีพื้นหลัง */
+    color: white; /* สีข้อความ */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .searchButton:hover {
+    background-color: rgb(69, 139, 160); /* สีเมื่อ hover */
+  }
+  
+  /* Container สำหรับ search bar */
+  .searchContainer {
+   
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .ListContainer{
+    color: "#58A099";
+    width: '100%';
+    padding: 0 20px;
+    border-Radius: 0;
+
+    
+  }
+
+  .buttonIconExit{
+    color: #8A92A6;
+    cursor: pointer;
+  }
+
+ /* ซ่อนตัวเลือก Rows per page */
+.rdt_Pagination {
+  display: none;
+}
+
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup1 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+.popup-text {
+  margin: 20px 0; /* เพิ่ม margin ด้านบนและด้านล่างเพื่อเว้นระยะ */
+}
+
+
+.popup-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.popup-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-buttons button:first-child {
+  background: #e0e0e0;
+}
+
+.popup-buttons button:last-child {
+  background: #58a099;
+  color: white;
+}
+
+.UserProfile1{
+  width: 122px;
+  height: 122px;
+}
+
+.popupTop{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.popupTopLeftCon{
+  display: flex;
+  justify-items: start;
+  flex-direction: column;
+  text-align: start;
+
+}

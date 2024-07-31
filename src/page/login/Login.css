@@ -1,0 +1,28 @@
+.containerLogin {
+    background-image: url('../../asset/backgroundLogin.png');
+    background-size: cover; /* ให้รูปภาพครอบคลุมทั้งพื้นที่ขององค์ประกอบ */
+    background-repeat: no-repeat; /* ป้องกันไม่ให้รูปภาพซ้ำ */
+    background-position: center center; /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลางทั้งในแนวนอนและแนวตั้ง */
+    height: 100vh; /* ตั้งค่าความสูงขององค์ประกอบให้เต็มหน้าจอ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+.iconImage1{
+    width: 510px;
+    height: 294px;
+}
+
+.loginButton{
+    padding-top: 20px;
+    background-color: transparent;
+    border: none;
+    width: 335px;
+    height: 60px;
+}
+.buttonImage{
+    width: 335px;
+    height: 60px;
+}
